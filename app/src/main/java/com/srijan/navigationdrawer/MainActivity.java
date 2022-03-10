@@ -68,8 +68,7 @@ public class MainActivity extends AppCompatActivity {
                         tempFragment = new HelpFragment();
                         layout.closeDrawer(GravityCompat.START);
                         break;
-
-                    case R.layout.nav_header:
+                        
                 }
                 getSupportFragmentManager().beginTransaction().replace(R.id.linearLayout,tempFragment).commit();
                 return true;
